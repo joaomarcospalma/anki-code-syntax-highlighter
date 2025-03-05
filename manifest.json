@@ -1,0 +1,9 @@
+{
+    "name": "Code Syntax Highlighter",
+    "package": "code_syntax_highlighter",
+    "author": "Seu Nome",
+    "version": "1.0.0",
+    "homepage": "https://github.com/seu-usuario/anki-code-highlighter",
+    "conflicts": [],
+    "mod": 20230101
+}

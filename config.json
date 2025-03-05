@@ -1,0 +1,30 @@
+{
+    "defaultLanguage": "python",
+    "supportedLanguages": [
+        "python",
+        "javascript",
+        "java",
+        "c",
+        "cpp",
+        "csharp",
+        "html",
+        "css",
+        "php",
+        "ruby",
+        "go",
+        "swift",
+        "kotlin",
+        "rust",
+        "sql",
+        "bash",
+        "powershell",
+        "plaintext"
+    ],
+    "theme": "default",
+    "availableThemes": [
+        "default",
+        "dark",
+        "github",
+        "monokai"
+    ]
+}

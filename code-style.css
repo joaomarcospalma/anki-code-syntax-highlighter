@@ -1,0 +1,69 @@
+/* Estilos para os blocos de código */
+pre {
+    margin: 10px 0;
+    padding: 0;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+pre code {
+    display: block;
+    padding: 12px;
+    overflow-x: auto;
+    font-family: 'Consolas', 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+    font-size: 14px;
+    line-height: 1.5;
+    tab-size: 4;
+}
+
+/* Estilos para o menu de seleção de linguagem */
+.code-lang-menu {
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.code-lang-menu div {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.code-lang-menu div:hover {
+    background: #f0f0f0;
+}
+
+/* Estilos para o botão de código no editor */
+.code-button {
+    background: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 2px 5px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.code-button:hover {
+    background: #e0e0e0;
+}
+
+/* Temas claros e escuros */
+.night-mode pre code {
+    background: #282c34 !important;
+    color: #abb2bf !important;
+}
+
+.night-mode .hljs-keyword {
+    color: #c678dd !important;
+}
+
+.night-mode .hljs-string {
+    color: #98c379 !important;
+}
+
+.night-mode .hljs-comment {
+    color: #5c6370 !important;
+    font-style: italic !important;
+}
